@@ -1,6 +1,6 @@
 {
   "name": "kickstart-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Kickstart module for apps - configuration & logging",
   "main": "kickstart-app.js",
   "scripts": {
@@ -34,7 +34,8 @@
   "peerDependencies": {
     "kickstarting": "*",
     "bunyan": "^1.2.0",
-    "nconf": "^0.6.9"
+    "nconf": "^0.6.9",
+    "exit-hook": "^1.1.1"
   },
   "keywords": [
     "kickstart-module",

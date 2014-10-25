@@ -22,11 +22,11 @@
     path = require('path');
     nconf = require('nconf');
     nconf.argv().file({
-      file: path.join(options.baseDir, "config/" + runtimeEnvironment + ".json")
+      file: path.join(options.rootDir, "config/" + runtimeEnvironment + ".json")
     }).env().defaults(_.extend({
       PORT: 3000,
       NODE_ENV: 'development'
-    }, require_optional(path.join(options.baseDir, 'config/defaults')), require_optional(path.join(options.baseDir, "config/" + runtimeEnvironment))));
+    }, require_optional(path.join(options.rootDir, 'config/defaults')), require_optional(path.join(options.rootDir, "config/" + runtimeEnvironment))));
     bunyan = require('bunyan');
     log = bunyan.createLogger({
       name: "" + pkginfo.name + " " + pkginfo.version,

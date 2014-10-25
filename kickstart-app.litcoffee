@@ -27,13 +27,13 @@ Surely quite customized to my needs but may serve others as a template.
       nconf = require 'nconf'
       nconf
         .argv()
-        .file( file: path.join options.baseDir, "config/#{runtimeEnvironment}.json" )
+        .file( file: path.join options.rootDir, "config/#{runtimeEnvironment}.json" )
         .env()
         .defaults( _.extend {
             PORT      : 3000
             NODE_ENV  : 'development'
-        },require_optional(path.join options.baseDir, 'config/defaults'),
-          require_optional(path.join options.baseDir, "config/#{runtimeEnvironment}"))
+        },require_optional(path.join options.rootDir, 'config/defaults'),
+          require_optional(path.join options.rootDir, "config/#{runtimeEnvironment}"))
 
 ## Saying „Hello“
 Like every good person, we introduce ourselves when we arrive, we say goodbye when we leave and we apologize if we do something wrong.
