@@ -1,16 +1,18 @@
 {
   "name": "kickstart-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kickstart module for apps - configuration & logging",
-  "main": "kickstart-app.coffee",
+  "main": "kickstart-app.js",
   "scripts": {
+    "build": "coffee -c kickstart-app.litcoffee; verb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andreas Pizsa (http://github.com/AndreasPizsa)",
   "license": "MIT",
   "devDependencies": {
-    "verb": ">= 0.2.6",
-    "mocha": "*"
+    "coffee-script": "^1.8.0",
+    "mocha": "*",
+    "verb": ">= 0.2.6"
   },
   "homepage": "https://github.com/AndreasPizsa/kickstart-app",
   "repository": {
