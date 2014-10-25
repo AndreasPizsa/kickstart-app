@@ -1,0 +1,44 @@
+{
+  "name": "kickstart-app",
+  "version": "0.0.1",
+  "description": "Kickstart module for apps - configuration & logging",
+  "main": "kickstart-app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Pizsa (http://github.com/AndreasPizsa)",
+  "license": "MIT",
+  "devDependencies": {
+    "verb": ">= 0.2.6",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/AndreasPizsa/kickstart-app",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndreasPizsa/kickstart-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/kickstart-app/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AndreasPizsa/kickstart-app/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "peerDependencies": {
+    "kickstarting": "*",
+    "bunyan": "^1.2.0",
+    "nconf": "^0.6.9"
+  },
+  "keywords": [
+    "kickstart-module",
+    "logging",
+    "configuration",
+    "bunyan",
+    "nconf"
+  ]
+}
