@@ -1,5 +1,7 @@
 # kickstart-app ![Travis Build Status](http://img.shields.io/travis/AndreasPizsa/kickstart-app.svg?style=flat-square "Travis Build Status") ![npm Release](http://img.shields.io/npm/v/kickstart-app.svg?style=flat-square "npm Release") ![npm License](http://img.shields.io/npm/l/kickstart-app.svg?style=flat-square "npm License")
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/kickstart-app.svg)](https://greenkeeper.io/)
+
 > Kickstart module for apps - configuration & logging
 
 ## About
