@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "coffee-script": ">=1.8.0",
-    "mocha": "*",
+    "mocha": ">=6.1.0",
     "verb": ">= 0.2.6"
   },
   "homepage": "https://github.com/AndreasPizsa/kickstart-app",
